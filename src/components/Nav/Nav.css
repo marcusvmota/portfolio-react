@@ -1,0 +1,25 @@
+    .nav {
+
+  }
+
+  .nav2 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+  }
+  
+  
+  /* Card */
+  .cardNav {
+
+    width: 1000px;
+    border-radius: 80px;
+    background: #231f20;
+  }
+  
+  /* Links */
+  a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+  } 

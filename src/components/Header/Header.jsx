@@ -1,8 +1,9 @@
 import React from "react";
 import viniAvatar from "../../assets/foto elipse.png";
+import {Link } from "react-router-dom";
 
 
-function header () {
+function Header () {
     return (
     <header>        
         <div className="card" id="home">
@@ -18,7 +19,7 @@ function header () {
                     <a href="#sobre">About</a>
                     <a href="#projetos">Projects</a>
                     <a href="#contato">Contact</a>
-                    <a href="./pages/orcamento.html">Orçamento</a>
+                    <Link to="/Orcamento">Orçamento</Link>
                 </div>
             </div>
             <div className="content">
@@ -30,4 +31,4 @@ function header () {
     )
 }
 
-export default header;
+export default Header;

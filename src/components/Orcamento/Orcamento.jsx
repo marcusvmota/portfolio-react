@@ -1,9 +1,13 @@
 import React from "react";
 import "./Orcamento.css";
+import Nav from "../Nav/Nav"
+import Footer from "../Footer/Footer";
 
 function Orcamento () {
     return (
         <>
+        <div id="Form">
+        <Nav/>       
             <section className="text" id="trending">
             <h2>Faça seu <span> orçamento!</span></h2>
                 </section>
@@ -21,7 +25,10 @@ function Orcamento () {
                  <button onclick="enviarFormulario()">Enviar Mensagem</button>
                 </div>
             </form>
-        </div>
+            </div>
+        <Footer/>
+        </div> 
+        
         </>
     )
 }

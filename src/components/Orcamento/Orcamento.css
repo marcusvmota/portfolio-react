@@ -1,50 +1,20 @@
 
+#Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-header {
-    display: flex;
-    justify-content: center;
-  }
-
-  .nav {
-    
-    display: flex;
-    justify-content: space-between;
-    margin-right: 9rem;
-    font-size: 22px;
-  }
-  
-  .name {
-    color: white;
-    padding-top: 50px;
-    margin-left: 4rem;
-    font-size: 27px;
-  }
-  
-  /* Card */
-  .card {
-    width: 1207px;
-    /* height: 624px; */
-    /* margin-top: 40px; */
-    border-radius: 80px;
-    background: #231f20 url("./assets/background-card.png") no-repeat center/cover;
-  }
-  
-  /* Links */
-  a {
-    padding: 20px;
-    text-decoration: none;
-    color: white;
-  }
   
   /* Menu */
   .menu {
     padding-top: 50px;
   }
 
-  main {
+  /* main {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .text {
     display: flex;
