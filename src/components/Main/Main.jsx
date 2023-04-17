@@ -27,7 +27,7 @@ function Main() {
                 <a href="https://github.com/marcusvmota" target="_blank"> <img src={github} alt="icone do github"/> </a>
                 <a href="https://www.linkedin.com/in/marcus-vinicius-mota" target="_blank"> <img src={linkedin} alt="icone do linkedin"/> </a>          
             </div>
-            <div className="contact_frase"> Contact <br/> <spam>me now!</spam> 
+            <div className="contact_frase"> Contact <br/> <spam>me now!!</spam> 
             </div>
             </div>   
             <div className="menu_down">
