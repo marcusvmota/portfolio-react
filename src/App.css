@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab";
+}
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-right: 9rem;
+  font-size: 22px;
+}
+
+.name {
+  color: white;
+  padding-top: 50px;
+  margin-left: 4rem;
+  font-size: 27px;
+}
+
+/* Card */
+.card {
+  width: 1207px;
+  height: 624px;
+  margin-top: 40px;
+  border-radius: 80px;
+  background: #231f20;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Links */
+a {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Menu */
+.menu {
+  padding-top: 50px;
+}
+
+/* Image */
+.image img {
+  width: 372px;
+  height: 456px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* Content */
+.content {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+}
+
+/* Phrase */
+.frase {
+  color: white;
+  margin-left: 30px;
+  margin-top: 60px;
+  font-size: 60px;
+}
+
+/* Span */
+spam {
+  color: #A37B39;
+}
+
+/* Sections */
+.about,
+.projects {
+  margin-left: 180px;
+  margin-top: 150px;
+  color: white;
+  font-size: 50px;
+}
+
+/* Description */
+.description {
+  color: white;
+  font-size: 24px;
+  margin-left: 200px;
+}
+
+/* Boxes */
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: #D9D9D9;
+  margin: 30px;
+  border-radius: 40px;
+}
+
+/* Contact */
+.contact {
+  position: relative;
+  color: white;
+  font-size: 50px;
+  margin-top: 150px;
+  /* margin-left: 50px; */
+}
+
+.contact_frase {
+  position: absolute;
+  bottom: 65px;
+  left: 180px;
+  font-size: 70px;
+}
+
+.retangulo {
+  position: absolute;
+  bottom: 150px;
+  left: 480px;
+}
+
+.icones {
+  position: absolute;
+  bottom: 110px;
+  left: 700px;
+}
+
+/* Menu down */
+.menu_down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/* Footer */
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+/* media querys */
+
+@media screen and (max-width: 480px) {
+  body {
+    background-image: none;
+    background-color: #231f20;
+  }
+
+
+  .name {
+    /* padding-top: 20px; 
+    margin-left: 1rem;
+    font-size: 18px; */
+    display: none;
+  }
+
+  header .nav {
+      justify-content: center;
+      margin-right: 0;
+
+  }
+
+  .menu a {
+      font-size: 14px;
+      display: block;
+      padding: 10px;
+      margin-bottom: 10px;
+    
+  }
+
+  .menu {
+    display: flex;
+      padding-top: 0;
+  }
+
+  .card {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+
+  }
+
+  .image img {
+    width: 200px;
+    height: auto;
+    margin: 0;
+  }
+
+  .content {
+    font-size: 36px;
+    flex-direction: column;
+  }
+
+  .frase {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .about,
+  .projects {
+    margin-left: 0;
+    margin-top: 50px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+    padding-inline: 3rem;
+  }
+
+  .boxes {  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border-radius: 20px;
+  }
+
+  .contact {
+    font-size: 36px;
+    margin-top: 10px;
+    text-align: center;
+    
+  }
+
+  .contact_frase {
+    position: static;
+    font-size: 36px;
+    text-align: center;
+  }
+  .elipse {
+   display: none;
+  }
+  .retangulo {
+    position: static;
+    margin: 20px auto;
+  }
+
+  .icones {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .menu_down {
+      margin-top: 10px;
+  }
+  .menu_down a {
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+      background: url("./assets/Rectangle-2.png") no-repeat cover;
+  }
+  
+
+  header .nav {
+      justify-content: center;
+      margin-right: 0;
+  }
+
+  .nav a {
+      align-items: center;
+      margin-right: 0;
+  }
+
+  .name {
+    display: none;
+    font-size: 20px;
+    margin-left: 2rem;
+  }
+
+  .card {
+    width: 800px;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+  }
+
+  .image img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2rem;
+  }
+
+  .frase {
+    margin: 2rem auto;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about, .projects {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .boxes {  
+      display: flex;
+      margin-top: 20px;
+      gap: 25px;
+    }
+  
+  .box {
+      width: 200px;
+      height: 200px;
+      margin: 20px 0;
+      border-radius: 20px;
+      
+      
+    }
+
+  .elipse {
+      width: 200px;
+      height: 200px;
+  }
+
+
+  .icones {
+      display: flex;
+      left: 400px;
+  }
+
+  .contact {
+      font-size: 36px;
+      margin-top: 50px;
+
+      
+    }
+
+  .contact_frase {
+      position: absolute;
+      bottom: 65px;
+      left: 100px;
+      font-size: 50px;
+    }
+    
+    .retangulo {
+      position: absolute;
+      bottom: 150px;
+      left: 400px;
+      display: none;
+    }
+    
+    .icones {
+      position: absolute;
+      bottom: 70px;
+      left: 320px;
+    }
+
+  .menu_down {
+    margin-top: 2rem;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+      background: url("./assets/Rectangle-2.png") no-repeat cover;
+  }
+
+  header .nav {
+    margin-right: 4rem;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .card {
+    width: 900px;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+  }
+
+  .image img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2rem;
+  }
+
+  .frase {
+    margin: 2rem auto;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about, .projects {
+    margin: 2rem auto;
+    /* text-align: center; */
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-left: 0;
+    /* text-align: center; */
+  }
+
+  .boxes {  
+      display: flex;
+      margin-top: 20px;
+      gap: 25px;
+    }
+  
+  .box {
+      width: 200px;
+      height: 200px;
+      margin: 20px 0;
+      border-radius: 20px;
+      
+      
+    }
+
+  .elipse {
+      width: 200px;
+      height: 200px;
+  }
+
+
+  .icones {
+      display: flex;
+      left: 400px;
+  }
+
+  .contact {
+      font-size: 36px;
+      margin-top: 50px;
+
+      
+    }
+
+  .contact_frase {
+      position: absolute;
+      bottom: 65px;
+      left: 100px;
+      font-size: 50px;
+    }
+    
+    .retangulo {
+      position: absolute;
+      bottom: 150px;
+      left: 400px;
+      display: none;
+    }
+    
+    .icones {
+      position: absolute;
+      bottom: 70px;
+      left: 320px;
+    }
+
+  .menu_down {
+    margin-top: 2rem;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+} 
